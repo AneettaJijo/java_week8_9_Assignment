@@ -1,0 +1,8 @@
+spring.application.name=RestRibbonClient
+server.port=8888
+
+eureka.client.healthcheck.enabled=true
+
+server.ribbon.eureka.enabled=true
+server.ribbon.ServerListRefreshInterval=1000
+
